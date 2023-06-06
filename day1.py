@@ -8,7 +8,7 @@ print(type((1,2,3))) #tuple
 print(type({12,23,34})) #set
 print(type(['Python','Data Science','ML','DL'])) #list
 
-# Some Math 
+### Math 
 
 print(2**2) # 2*2 = 4
 print(3**4) # 3*3*3*3 = 81
@@ -23,8 +23,14 @@ print(34 % 5) #4
 print(45%7) #3
 print(23%8) #7
 
-# some math function 
+# Math function 
 print(round(34.4)) #34
 print(round(23.7)) #24
 print(round(12.5)) #12
 print(round(17.6)) #18
+
+print(abs(-340)) # 340
+print(abs(340))  # 340
+print(abs(-200)) # 200
+
+print(bin(12)) # Binary check '0b1100' 
