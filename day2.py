@@ -29,4 +29,11 @@ print(ourName) #MKH TasTan
 # string Concatenation
 
 print('Hello '+ 'Hridoy') # Hello Hridoy
-print('Hi ' + 5) # error . Bcoz => String & int can't be add .
+#  print('Hi ' + 5)     # error . Bcoz => String & int can't be add .
+
+#formatted string
+
+singer = "kabir"
+age = 56
+
+print(f'Hi {singer} . How are you . I think you are {age} years old ')
