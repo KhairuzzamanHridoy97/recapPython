@@ -24,3 +24,9 @@ yourName = "TasTan"
 ourName = myName + ' ' + yourName
 
 print(ourName) #MKH TasTan
+
+
+# string Concatenation
+
+print('Hello '+ 'Hridoy') # Hello Hridoy
+print('Hi ' + 5) # error . Bcoz => String & int can't be add .
